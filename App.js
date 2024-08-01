@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 // To create nested tags we can pass the whole statement React.createElement(
     // "h1",
     // {id:"heading"}, as the third parameter and provide the details .
@@ -22,7 +24,7 @@
 const heading = React.createElement(
     "h1",
     {id:"heading"},
-    "Hello from ReactJs"
+    "Hello from ReactJs Parcel"
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
